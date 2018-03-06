@@ -1,7 +1,7 @@
 # A Chassis extensions to add gmagick to your Chassis server
 class gmagick (
 	$config,
-	$path = ''/vagrant/extensions/gmagick'',
+	$path = '/vagrant/extensions/gmagick',
 	$php = $config[php]
 ) {
 
