@@ -2,10 +2,10 @@
 class gmagick (
 	$config,
 	$path = '/vagrant/extensions/gmagick',
-	$php = $config[php]
+	$php  = $config[php]
 ) {
 
-	if versioncmp( $php, '5.4') <= 0 {
+	if versioncmp($php, '5.4') <= 0 {
 		$php_package = 'php5'
 	}
 	else {
