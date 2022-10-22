@@ -15,7 +15,7 @@ class gmagick (
 		$php_package = 'php5'
 	}
 	else {
-		$php_package = 'php'
+		$php_package = "php${$php}"
 	}
 
 	package { "${$php_package}-gmagick":
